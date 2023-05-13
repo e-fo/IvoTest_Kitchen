@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5976770783694348190}
   - component: {fileID: 5976770783694348185}
   m_Layer: 0
-  m_Name: Cheeze
+  m_Name: Cheese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

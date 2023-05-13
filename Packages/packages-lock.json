@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.unity-atoms.unity-atoms": {
+      "version": "https://github.com/e-fo/unity-atoms.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e37c4929be072f3797e1921fcfde39d7eff2413c"
+    },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
       "depth": 0,
@@ -60,6 +67,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.4.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {

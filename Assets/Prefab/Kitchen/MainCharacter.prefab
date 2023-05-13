@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveValue: {fileID: 11400000, guid: 3a01c6f18ee79994c87dbf227b390c1d, type: 2}
-  _velocity: {fileID: 11400000, guid: 7ce3fbbcd9646a84aac18a902b582750, type: 2}
+  _velocity: {fileID: 0}
 --- !u!54 &8469173737176802545
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -176,4 +176,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveValue: {fileID: 11400000, guid: 3a01c6f18ee79994c87dbf227b390c1d, type: 2}
-  _velocity: {fileID: 11400000, guid: 7ce3fbbcd9646a84aac18a902b582750, type: 2}
+  _velocity: {fileID: 11400000, guid: bbc4a77cf018ed942977b81c8cac8e4b, type: 2}

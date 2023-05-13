@@ -445,6 +445,26 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: fcb680b8c9b2d2242a54ce3b1bdfdb80, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77ce9f490db903c4288dd949e8860b69, type: 3}
+--- !u!1 &853878187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1075008493, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
+  m_PrefabInstance: {fileID: 8230743709101183301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &853878192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853878187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd63f3a800fe74586b3a87357d763173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: d00918fe5940aa844a63287995df7c3b, type: 2}
+  _eventWithGameObjectReference: {fileID: 0}
+  _selectGameObjectReference: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1205,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1373273852}
     m_Modifications:
+    - target: {fileID: 75738766, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 75738769, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075008493, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
+      propertyPath: m_Name
+      value: Btn_Cheese
+      objectReference: {fileID: 0}
     - target: {fileID: 1645723385001312217, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
       propertyPath: m_RootOrder
       value: 5

@@ -9,7 +9,7 @@ namespace IvoKitchen.RigidbodyComp
     public class RigidbodyMoveByDirection : MonoBehaviour
     {
         [SerializeField] Vector2Variable _moveValue;
-        [SerializeField] FloatVariable _velocity;
+        [SerializeField] FloatConstant _velocity;
         Rigidbody _rb;
         Vector3 _dir;
 

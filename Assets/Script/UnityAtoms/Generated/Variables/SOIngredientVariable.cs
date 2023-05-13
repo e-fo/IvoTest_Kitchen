@@ -13,7 +13,7 @@ namespace UnityAtoms.BaseAtoms
     {
         protected override bool ValueEquals(IvoKitchen.SOIngredient other)
         {
-            throw new NotImplementedException();
+            return other == this;
         }
     }
 }

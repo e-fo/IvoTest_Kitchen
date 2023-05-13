@@ -16,7 +16,7 @@ MonoBehaviour:
     PublicKeyToken=null
   Namespace: IvoKitchen
   BaseType: SOIngredient
-  GenerationOptions: 3098236
+  GenerationOptions: 3098365
   Scripts:
   - {fileID: 0}
   - {fileID: 0}

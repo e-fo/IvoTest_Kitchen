@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75738765}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.92, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46,7 +46,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.6220004, y: 1, z: 1}
-  m_Center: {x: -0.86156595, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &75738768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +193,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 253899014}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: ace35588ee7df7d44b28e59da7804417, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientAssignIfNull,
+          Assembly-CSharp
+        m_MethodName: Do
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 7e1f49c2b7120be4187a4b15163ed472, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredient, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1062285621
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +401,7 @@ GameObject:
   - component: {fileID: 1075008496}
   - component: {fileID: 1075008495}
   m_Layer: 0
-  m_Name: Btn_Cheeze
+  m_Name: Btn_Cheese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,7 +508,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1075008496}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: ace35588ee7df7d44b28e59da7804417, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientAssignIfNull,
+          Assembly-CSharp
+        m_MethodName: Do
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 297889a5933e1c847a8c0f104971d828, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredient, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1118837323
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +642,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1118837326}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: ace35588ee7df7d44b28e59da7804417, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientAssignIfNull,
+          Assembly-CSharp
+        m_MethodName: Do
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: b8c8c68c003f0ee4ebc8388e39b71a33, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredient, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6094461386330425114
 GameObject:
   m_ObjectHideFlags: 0

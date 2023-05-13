@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityAtoms.BaseAtoms;
 
-namespace IvoKitchen
+namespace IvoKitchen.RigidbodyComp
 {
     using CMRoute = ComponentMenuRoute;
     [RequireComponent(typeof(Rigidbody))]

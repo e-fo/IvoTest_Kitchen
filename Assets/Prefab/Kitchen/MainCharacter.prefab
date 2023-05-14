@@ -10,9 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2082240133}
   - component: {fileID: 2082240135}
-  - component: {fileID: 2082240137}
-  - component: {fileID: 2082240136}
-  - component: {fileID: 2082240134}
+  - component: {fileID: 5046323431430384183}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -51,21 +49,21 @@ MonoBehaviour:
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2082240134}
-        m_TargetAssemblyTypeName: IvoKitchen.TransformComp.InstanciatePrefab, Assembly-CSharp
+      - m_Target: {fileID: 5046323431430384183}
+        m_TargetAssemblyTypeName: IvoKitchen.TransformComp.InstanciatePrefabFromEnumPair,
+          Assembly-CSharp
         m_MethodName: Instanciate
-        m_Mode: 2
+        m_Mode: 0
         m_Arguments:
-          m_ObjectArgument: {fileID: 3252865726288369447, guid: 4961d5eca16d64547b8bf7b016a4531c, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   _actionResponses: []
-  _conditions:
-  - {fileID: 11400000, guid: acdeb2ea1909ed048b07dad691326faa, type: 2}
+  _conditions: []
   _operator: 0
   _replayEventBufferOnRegister: 1
   _eventReference:
@@ -74,7 +72,7 @@ MonoBehaviour:
     _eventInstancer: {fileID: 0}
     _variable: {fileID: 0}
     _variableInstancer: {fileID: 0}
---- !u!114 &2082240137
+--- !u!114 &5046323431430384183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,88 +81,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2082240132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b67b4e40dac6244f92032cb3d692f9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _developerDescription: 
-  _unityEventResponse:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2082240134}
-        m_TargetAssemblyTypeName: IvoKitchen.TransformComp.InstanciatePrefab, Assembly-CSharp
-        m_MethodName: Instanciate
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6239771454705923527, guid: b61aeb45676355f4e9d01b9dc55bc220, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _actionResponses: []
-  _conditions:
-  - {fileID: 11400000, guid: 859e19a4b9fe0d246986c02a10c810a2, type: 2}
-  _operator: 0
-  _replayEventBufferOnRegister: 1
-  _eventReference:
-    _usage: 0
-    _event: {fileID: 11400000, guid: 79927fd01521d6a4180aa26e1a103b23, type: 2}
-    _eventInstancer: {fileID: 0}
-    _variable: {fileID: 0}
-    _variableInstancer: {fileID: 0}
---- !u!114 &2082240136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082240132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b67b4e40dac6244f92032cb3d692f9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _developerDescription: 
-  _unityEventResponse:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2082240134}
-        m_TargetAssemblyTypeName: IvoKitchen.TransformComp.InstanciatePrefab, Assembly-CSharp
-        m_MethodName: Instanciate
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 5976770783694348184, guid: 31f27b3e81e2b5142850f86501a2abcf, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _actionResponses: []
-  _conditions:
-  - {fileID: 11400000, guid: 45f4614b2a013154185707b2b7d4f32f, type: 2}
-  _operator: 0
-  _replayEventBufferOnRegister: 1
-  _eventReference:
-    _usage: 0
-    _event: {fileID: 11400000, guid: 79927fd01521d6a4180aa26e1a103b23, type: 2}
-    _eventInstancer: {fileID: 0}
-    _variable: {fileID: 0}
-    _variableInstancer: {fileID: 0}
---- !u!114 &2082240134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082240132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16dc5e4c81200dd47bd1ea83985e583c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d2b9d182892e9c4fb456b5fce4841b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _parent: {fileID: 2082240133}
+  _intialLocalPos: {x: 0, y: 0, z: 0}
+  _enumList: {fileID: 11400000, guid: 2679d89e5e94df74daf3d36b68a7c161, type: 2}
+  _prefabList: {fileID: 11400000, guid: d6bfe6725bee2934db0f6f766a85967b, type: 2}
 --- !u!1 &1551193792137367524
 GameObject:
   m_ObjectHideFlags: 0

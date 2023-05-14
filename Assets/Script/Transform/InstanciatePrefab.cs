@@ -2,6 +2,8 @@ using UnityEngine;
 
 namespace IvoKitchen.TransformComp
 {
+    using CMRoute = ComponentMenuRoute;
+    [AddComponentMenu(CMRoute.ROOT + CMRoute.TRANSFORM + "InstanciatePrefab")]
     public class InstanciatePrefab : MonoBehaviour
     {
         [SerializeField] Transform _parent;

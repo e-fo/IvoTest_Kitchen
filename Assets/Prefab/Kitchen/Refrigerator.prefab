@@ -224,10 +224,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: ace35588ee7df7d44b28e59da7804417, type: 2}
-        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientAssignIfNull,
+      - m_Target: {fileID: 11400000, guid: 9054ca93ee0fea54ea7e67cececc6632, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.AtomEvent`1[[IvoKitchen.SOIngredient,
           Assembly-CSharp
-        m_MethodName: Do
+        m_MethodName: Raise
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 7e1f49c2b7120be4187a4b15163ed472, type: 2}
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9150943, g: 0.871571, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -500,10 +500,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: ace35588ee7df7d44b28e59da7804417, type: 2}
-        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientAssignIfNull,
+      - m_Target: {fileID: 11400000, guid: 9054ca93ee0fea54ea7e67cececc6632, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.AtomEvent`1[[IvoKitchen.SOIngredient,
           Assembly-CSharp
-        m_MethodName: Do
+        m_MethodName: RaiseEditor
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 297889a5933e1c847a8c0f104971d828, type: 2}
@@ -634,10 +634,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: ace35588ee7df7d44b28e59da7804417, type: 2}
-        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientAssignIfNull,
+      - m_Target: {fileID: 11400000, guid: 9054ca93ee0fea54ea7e67cececc6632, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.AtomEvent`1[[IvoKitchen.SOIngredient,
           Assembly-CSharp
-        m_MethodName: Do
+        m_MethodName: Raise
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: b8c8c68c003f0ee4ebc8388e39b71a33, type: 2}

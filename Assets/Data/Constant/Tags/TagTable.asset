@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 773602cb484469d4baf2a1128ff97f9d, type: 3}
-  m_Name: SOIngredientAssignIfNull
+  m_Script: {fileID: 11500000, guid: 44fe6f8275613408d9adc4435b52bf4f, type: 3}
+  m_Name: TagTable
   m_EditorClassIdentifier: 
   _developerDescription: 
-  _variable: {fileID: 11400000, guid: 28f3128dfda74734284c59e06199dcdb, type: 2}
+  _id: 
+  _value: Table

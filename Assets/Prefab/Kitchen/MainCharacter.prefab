@@ -62,13 +62,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 28f3128dfda74734284c59e06199dcdb, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.AtomVariable`5[[IvoKitchen.SOIngredient,
+          Assembly-CSharp
+        m_MethodName: set_Value
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _actionResponses: []
-  _conditions: []
+  _conditions:
+  - {fileID: 11400000, guid: 98c0ae0ebaa98684aaeb5c55c6011c34, type: 2}
   _operator: 0
   _replayEventBufferOnRegister: 1
   _eventReference:
     _usage: 0
-    _event: {fileID: 11400000, guid: 79927fd01521d6a4180aa26e1a103b23, type: 2}
+    _event: {fileID: 11400000, guid: 9054ca93ee0fea54ea7e67cececc6632, type: 2}
     _eventInstancer: {fileID: 0}
     _variable: {fileID: 0}
     _variableInstancer: {fileID: 0}

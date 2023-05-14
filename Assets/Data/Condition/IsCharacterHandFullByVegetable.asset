@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d2a4a7b010db7140848b0e8ab349efa, type: 3}
-  m_Name: OnChangedOnHandIngredient
+  m_Script: {fileID: 11500000, guid: 933579f428a23c141b5fd6ecfe801b0f, type: 3}
+  m_Name: IsCharacterHandFullByVegetable
   m_EditorClassIdentifier: 
   _developerDescription: 
-  _replayBufferSize: 1
-  _inspectorRaiseValue: {fileID: 0}
+  _value: {fileID: 11400000, guid: 7e1f49c2b7120be4187a4b15163ed472, type: 2}
+  _variable: {fileID: 11400000, guid: 28f3128dfda74734284c59e06199dcdb, type: 2}

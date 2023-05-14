@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace UnityAtoms.BaseAtoms
 {
-    [EditorIcon("atom-icon-sand")]
+    [EditorIcon("atom-icon-teal")]
     [CreateAssetMenu(menuName = "Unity Atoms/Conditions/Void/IngridientEqualTo", fileName = "EqualTo")]
     public class SOIngredientVariableEqualityCondition : VoidCondition
     {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace UnityAtoms.BaseAtoms
 {
-    [EditorIcon("atom-icon-sand")]
+    [EditorIcon("atom-icon-teal")]
     [CreateAssetMenu(menuName = "Unity Atoms/Conditions/Bool/EqualTo", fileName = "EqualTo")]
     public class BoolCondEqualTo : BoolCondition
     {

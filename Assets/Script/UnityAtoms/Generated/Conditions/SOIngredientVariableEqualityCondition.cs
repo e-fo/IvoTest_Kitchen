@@ -9,9 +9,11 @@ namespace UnityAtoms.BaseAtoms
     {
         [SerializeField] SOIngredient _value;
         [SerializeField] SOIngredientVariable _variable;
+        [SerializeField] bool _contradictory;
         public override bool Call()
         {
-            return _variable.Value == _value;
+            bool ret = (_contradictory) ? !(_variable.Value == _value) : (_variable.Value == _value);
+            return ret;
         }
     }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityAtoms.BaseAtoms;
+using UnityEngine.Events;
 
 namespace IvoKitchen.RigidbodyComp
 {
@@ -8,11 +9,12 @@ namespace IvoKitchen.RigidbodyComp
     [AddComponentMenu(CMRoute.ROOT + CMRoute.RIGIBODY + "OnTriggerExitDealer")]
     public class OnTriggerExitDealer : MonoBehaviour
     {
-        [SerializeField] ColliderEvent _onTriggerEnter;
-
+        [SerializeField] ColliderEvent _onTriggerExit;
+        [SerializeField] UnityEvent _onTrigerExitUnityEvent;
         private void OnTriggerExit(Collider other)
         {
-            _onTriggerEnter.Raise(other);
+            _onTriggerExit?.Raise(other);
+            _onTrigerExitUnityEvent?.Invoke();
         }
     }
 }

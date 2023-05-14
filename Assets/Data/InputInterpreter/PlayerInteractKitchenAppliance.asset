@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17c0f4f7cb20545fc80d685f628b06d3, type: 3}
-  m_Name: OnTriggerExitRefrigerator
+  m_Script: {fileID: 11500000, guid: c803c008a364cd145a069348fa3d7c61, type: 3}
+  m_Name: PlayerInteractKitchenAppliance
   m_EditorClassIdentifier: 
   _developerDescription: 
-  _replayBufferSize: 1
-  _inspectorRaiseValue: {fileID: 0}
+  _started: {fileID: 11400000, guid: 3d438b33e1fb2374d900f79c29bc4b1a, type: 2}
+  _performed: {fileID: 0}
+  _canceled: {fileID: 0}
+  _waiting: {fileID: 0}
+  _disabled: {fileID: 0}

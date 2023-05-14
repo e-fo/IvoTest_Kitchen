@@ -904,6 +904,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 316cc8d5-89c8-45ac-99aa-d3ecbc31ade0
     m_ActionName: KItchen/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 889bb436f10ea4244a8020c6018848a6, type: 2}
+        m_TargetAssemblyTypeName: IvoKitchen.CallbackContextInterpreter, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 367e8354-0367-492a-8105-6125f03aedf5
+    m_ActionName: KItchen/InteractKitchenAppliance[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: KItchen
@@ -1185,18 +1201,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1373273852}
     m_Modifications:
-    - target: {fileID: 75738766, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 75738769, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1075008493, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
-      propertyPath: m_Name
-      value: Btn_Cheese
-      objectReference: {fileID: 0}
     - target: {fileID: 1645723385001312217, guid: b119be8d2da5c8842a87676cfaa3dd0c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1373,6 +1377,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1373273852}
     m_Modifications:
+    - target: {fileID: 746868759, guid: 5abd1aeea7d8b3946872985b61d53387, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 963194227}
     - target: {fileID: 9058825537624082350, guid: 5abd1aeea7d8b3946872985b61d53387, type: 3}
       propertyPath: m_Name
       value: Table

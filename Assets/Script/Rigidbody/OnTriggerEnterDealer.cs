@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityAtoms.BaseAtoms;
+using UnityEngine.Events;
 
 namespace IvoKitchen.RigidbodyComp
 {
@@ -9,10 +10,12 @@ namespace IvoKitchen.RigidbodyComp
     public class OnTriggerEnterDealer : MonoBehaviour
     {
         [SerializeField] ColliderEvent _onTriggerEnter;
+        [SerializeField] UnityEvent _onTriggerEnterUnityEvent;
 
         private void OnTriggerEnter(Collider other)
         {
-            _onTriggerEnter.Raise(other);
+            _onTriggerEnter?.Raise(other);
+            _onTriggerEnterUnityEvent?.Invoke();
         }
     }
 }

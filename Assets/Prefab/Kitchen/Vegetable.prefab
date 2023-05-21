@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 3252865726288369444}
   - component: {fileID: 3252865726288369445}
   - component: {fileID: 3252865726288369446}
-  - component: {fileID: 2704683950808850590}
-  - component: {fileID: 3851795498431584078}
+  - component: {fileID: 7601461362149152929}
+  - component: {fileID: 7079066091274210283}
+  - component: {fileID: 2270263006975993424}
   m_Layer: 0
   m_Name: Vegetable
   m_TagString: Untagged
@@ -99,7 +100,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2704683950808850590
+--- !u!114 &7601461362149152929
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,47 +109,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 3252865726288369447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2458933140c54c9db0aec7a69c1b617, type: 3}
+  m_Script: {fileID: 11500000, guid: d7bf1607e7be0499885b187311bc83f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _developerDescription: 
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: fc378e027060ffb42b04f1d98392766a, type: 2}
-        m_TargetAssemblyTypeName: UnityAtoms.AtomVariable`5[[IvoKitchen.SOIngredient,
+      - m_Target: {fileID: 2270263006975993424}
+        m_TargetAssemblyTypeName: IvoKitchen.TransformComp.SetParentByGameobject,
           Assembly-CSharp
-        m_MethodName: set_Value
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 7e1f49c2b7120be4187a4b15163ed472, type: 2}
-          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredient, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 28f3128dfda74734284c59e06199dcdb, type: 2}
-        m_TargetAssemblyTypeName: UnityAtoms.AtomVariable`5[[IvoKitchen.SOIngredient,
-          Assembly-CSharp
-        m_MethodName: set_Value
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f97ed575c0bc1ab4eb1135236c051361, type: 2}
-          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredient, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3851795498431584078}
-        m_TargetAssemblyTypeName: IvoKitchen.TransformComp.SetParentByTag, Assembly-CSharp
         m_MethodName: SetParent
-        m_Mode: 2
+        m_Mode: 0
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 8beee6d04ebbcaa478db35ede6d039b9, type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityAtoms.BaseAtoms.StringConstant,
-            UnityAtoms.UnityAtomsBaseAtoms.Runtime
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -156,20 +131,16 @@ MonoBehaviour:
         m_CallState: 2
   _actionResponses: []
   _conditions:
-  - {fileID: 11400000, guid: 8d9f0b13aaac5384b9cdaae5bb35b2f4, type: 2}
-  - {fileID: 11400000, guid: 6d559463ad995174c84f7c71c142ffd9, type: 2}
-  - {fileID: 11400000, guid: 31fe3692a25ba8843a1b548900cbe69b, type: 2}
+  - {fileID: 11400000, guid: 690f7d01c1e030a4e94b8eab6c788bf6, type: 2}
   _operator: 0
   _replayEventBufferOnRegister: 1
   _eventReference:
     _usage: 0
-    _event: {fileID: 11400000, guid: 3d438b33e1fb2374d900f79c29bc4b1a, type: 2}
+    _event: {fileID: 11400000, guid: 03e30f40264b2e8489e1881def7f2e0b, type: 2}
     _eventInstancer: {fileID: 0}
-    _collection: {fileID: 0}
-    _list: {fileID: 0}
-    _collectionInstancer: {fileID: 0}
-    _listInstancer: {fileID: 0}
---- !u!114 &3851795498431584078
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+--- !u!114 &7079066091274210283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,7 +149,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 3252865726288369447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 649db04657076a548879e4a98cfab991, type: 3}
+  m_Script: {fileID: 11500000, guid: 99785f80f3bc1a44fac1b35841b7df86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _removeComponentAfterInit: 0
+  _initOnAwake: 1
+  _initOnStart: 0
+  _initOnEnable: 0
+  _removeOnDestroy: 1
+  _removeOnDisable: 0
+  _keyList: {fileID: 11400000, guid: 17c7823fcd3cf474ba95f3361c470035, type: 2}
+  _valueList:
+  - Value: {fileID: 11400000, guid: 5e9156f9e96a56d4d89edf4e654211c0, type: 2}
+    List: {fileID: 11400000, guid: b4a3d30f9c064a244b0267e852186c71, type: 2}
+--- !u!114 &2270263006975993424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252865726288369447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44226528dacbc6146b6be15397ff622f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _localPos: {x: 0, y: 0, z: 0}

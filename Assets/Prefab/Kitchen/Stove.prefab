@@ -113,7 +113,6 @@ GameObject:
   - component: {fileID: 659047572043253788}
   - component: {fileID: 5559627607623653403}
   - component: {fileID: 8762294579606205305}
-  - component: {fileID: 1795913718369175895}
   m_Layer: 0
   m_Name: Flame02
   m_TagString: Untagged
@@ -200,21 +199,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &1795913718369175895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888580996164493358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3570dca9cf8f40ac9731ef4082c9a4ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tags:
-  - {fileID: 11400000, guid: f914b24630d0c0a49b4aa2f2401f7eff, type: 2}
-  - {fileID: 0}
 --- !u!1 &2468125295400786742
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +415,6 @@ GameObject:
   - component: {fileID: 291917596910886}
   - component: {fileID: 5853471500233872924}
   - component: {fileID: 761862432369601145}
-  - component: {fileID: 7652120067016925485}
   m_Layer: 0
   m_Name: Flame01
   m_TagString: Untagged
@@ -518,21 +501,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7652120067016925485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2956616353318509522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3570dca9cf8f40ac9731ef4082c9a4ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tags:
-  - {fileID: 11400000, guid: e3148794767ad994a8d8d7f429894a1e, type: 2}
-  - {fileID: 0}
 --- !u!1 &6074437045967201992
 GameObject:
   m_ObjectHideFlags: 0

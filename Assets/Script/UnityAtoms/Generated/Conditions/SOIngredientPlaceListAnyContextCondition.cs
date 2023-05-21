@@ -1,4 +1,3 @@
-using UnityAtoms;
 using UnityEngine;
 using IvoKitchen;
 
@@ -8,15 +7,14 @@ namespace UnityAtoms.BaseAtoms
     [CreateAssetMenu(menuName = "Unity Atoms/Conditions/With Context/SOIngredientPlace List Any Context Condition", fileName = "EqualTo")]
     public class SOIngredientPlaceListAnyContextCondition : AtomConditionWithContext
     {
-        [SerializeField] GameObjectValueList _idList;
+        [SerializeField] IntValueList _instanceIdList;
         [SerializeField] SOIngredientPlaceValueList _valueList;
         [SerializeField] SOIngredientPlace _value;
 
         public override bool Call(GameObject context)
         {
-            int index = _idList.IndexOf(context);
-            
-            return _valueList == _value;
+            int index = _instanceIdList.IndexOf(context.GetInstanceID());
+            return _valueList[index] == _value;
         }
     }
 }

@@ -25,19 +25,19 @@ namespace UnityAtoms.BaseAtoms
         [SerializeField] protected bool _removeOnDisable;
 
 
-        [SerializeField] protected GameObjectValueList _keyList;
+        [SerializeField] protected IntValueList _keyList;
 
         [SerializeField] protected List<ListValuePair<T,TElem>> _valueList;
 
         void Awake()        { if(_initOnAwake)      AddToList(); if(_removeComponentAfterInit) Destroy(this);}
         void Start()        { if(_initOnStart)      AddToList(); if(_removeComponentAfterInit) Destroy(this);}
         void OnEnable()     { if(_initOnEnable)     AddToList(); if(_removeComponentAfterInit) Destroy(this);}
-        void OnDisable()    { if(_removeOnDisable)  RemoveFromList(_keyList.IndexOf(this.gameObject)); }
-        void OnDestroy()    { if(_removeOnDestroy)  RemoveFromList(_keyList.IndexOf(this.gameObject)); }
+        void OnDisable()    { if(_removeOnDisable)  RemoveFromList(_keyList.IndexOf(this.gameObject.GetInstanceID())); }
+        void OnDestroy()    { if(_removeOnDestroy)  RemoveFromList(_keyList.IndexOf(this.gameObject.GetInstanceID())); }
 
         protected virtual void AddToList()
         {
-            _keyList.Add(this.gameObject);
+            _keyList.Add(this.gameObject.GetInstanceID());
             int c = _valueList.Count;
 
             for(int i=c-1; i>=0; i--) 

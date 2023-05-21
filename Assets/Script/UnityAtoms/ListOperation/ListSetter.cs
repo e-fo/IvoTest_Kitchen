@@ -25,5 +25,13 @@ namespace UnityAtoms.BaseAtoms
             _value = null;
             _list = null;
         }
+
+        public void ApplyOnListByInstanceId(IntValueList instanceIdList)
+        {
+            int index = instanceIdList.IndexOf(this.gameObject.GetInstanceID());
+            _list[index] = _value;
+            _value = null;
+            _list = null;
+        }
     }
 }

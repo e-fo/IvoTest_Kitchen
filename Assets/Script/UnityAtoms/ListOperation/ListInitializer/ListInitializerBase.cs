@@ -54,6 +54,7 @@ namespace UnityAtoms.BaseAtoms
                 IList list = _valueList[i].List.IList;
                 if(index < list.Count) list.RemoveAt(index);
             }
+            _keyList.IList.RemoveAt(index);
         }
     }
 }

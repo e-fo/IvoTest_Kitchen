@@ -643,6 +643,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: fc378e027060ffb42b04f1d98392766a, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.AtomVariable`5[[IvoKitchen.SOIngredient,
+          Assembly-CSharp
+        m_MethodName: set_Value
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 7e1f49c2b7120be4187a4b15163ed472, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredient, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _actionResponses: []
   _conditions:
   - {fileID: 11400000, guid: 31fe3692a25ba8843a1b548900cbe69b, type: 2}

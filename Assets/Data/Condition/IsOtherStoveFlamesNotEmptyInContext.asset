@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 035342780a59f124ea197595545d458a, type: 3}
-  m_Name: IsStoveHasCapacity
+  m_Script: {fileID: 11500000, guid: e6e2a023f6f82b742971cb44482e39c6, type: 3}
+  m_Name: IsOtherStoveFlamesNotEmptyInContext
   m_EditorClassIdentifier: 
   _developerDescription: 
-  _list: {fileID: 11400000, guid: 8f744a9ebc476bf4db12e344423c6190, type: 2}
+  _instanceIdList: {fileID: 11400000, guid: c59fe2d4c0919fd4dbab8813fa114ab5, type: 2}
+  _valueList: {fileID: 11400000, guid: 8f744a9ebc476bf4db12e344423c6190, type: 2}
   _value: {fileID: 11400000, guid: f97ed575c0bc1ab4eb1135236c051361, type: 2}
+  _checkLowerSiblingIndciesBeFalse: 1

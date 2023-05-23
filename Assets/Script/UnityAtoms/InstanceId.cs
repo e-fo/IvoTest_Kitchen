@@ -10,13 +10,15 @@ namespace UnityAtoms
     {
         private static Dictionary<int, GameObject> _instanceIdMap = new();
         private static bool _initialized = false;
-
+#if UNITY_EDITOR
+        private int _gameObjectInstanceId; //Just for showing in inspector debug mode.
+#endif
         public static GameObject FindObject(int instanceId)
         {
             return _instanceIdMap[instanceId];
         }
 
-        private void Awake()
+        private void Start()
         {
             if (!_initialized)
             {
@@ -34,6 +36,9 @@ namespace UnityAtoms
 
         void OnEnable()
         {
+#if UNITY_EDITOR
+            _gameObjectInstanceId = this.gameObject.GetInstanceID();
+#endif
             if (false == _instanceIdMap.ContainsKey(gameObject.GetInstanceID()))
             {
                 _instanceIdMap.Add(gameObject.GetInstanceID(), gameObject);

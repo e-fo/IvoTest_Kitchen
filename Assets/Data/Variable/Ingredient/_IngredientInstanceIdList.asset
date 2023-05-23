@@ -9,9 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09747f8c6d9954e4a81c09bb7f6e44a6, type: 3}
-  m_Name: OnAcceptedPlacingOnTable
+  m_Script: {fileID: 11500000, guid: 1600383790f9b4aaab9e080bfe9b7139, type: 3}
+  m_Name: _IngredientInstanceIdList
   m_EditorClassIdentifier: 
   _developerDescription: 
-  _replayBufferSize: 1
-  _inspectorRaiseValue: {fileID: 0}
+  Cleared: {fileID: 0}
+  _startCleared: 1
+  Added: {fileID: 0}
+  Removed: {fileID: 0}
+  ElementChanged: {fileID: 0}
+  list: 

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: IsIngridientOnHand
   m_EditorClassIdentifier: 
   _developerDescription: 
-  _idList: {fileID: 11400000, guid: 17c7823fcd3cf474ba95f3361c470035, type: 2}
+  _instanceIdList: {fileID: 11400000, guid: f7fe42a173dbb4b4c87559b267078882, type: 2}
   _valueList: {fileID: 11400000, guid: b4a3d30f9c064a244b0267e852186c71, type: 2}
   _value: {fileID: 11400000, guid: 5e9156f9e96a56d4d89edf4e654211c0, type: 2}

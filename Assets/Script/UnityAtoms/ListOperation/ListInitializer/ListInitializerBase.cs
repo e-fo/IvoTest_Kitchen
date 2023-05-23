@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace UnityAtoms.BaseAtoms
 {
@@ -26,10 +27,9 @@ namespace UnityAtoms.BaseAtoms
 
 
         [SerializeField] protected IntValueList _keyList;
-
         [SerializeField] protected List<ListValuePair<T,TElem>> _valueList;
 
-        void Awake()        { if(_initOnAwake)      AddToList(); if(_removeComponentAfterInit) Destroy(this);}
+        void Awake()        { if(_initOnAwake) AddToList(); if(_removeComponentAfterInit) Destroy(this);}
         void Start()        { if(_initOnStart)      AddToList(); if(_removeComponentAfterInit) Destroy(this);}
         void OnEnable()     { if(_initOnEnable)     AddToList(); if(_removeComponentAfterInit) Destroy(this);}
         void OnDisable()    { if(_removeOnDisable)  RemoveFromList(_keyList.IndexOf(this.gameObject.GetInstanceID())); }
@@ -51,7 +51,8 @@ namespace UnityAtoms.BaseAtoms
             int c = _valueList.Count;
             for(int i=c-1; i>=0; i--) 
             {
-                _valueList[i].List.IList.RemoveAt(index);
+                IList list = _valueList[i].List.IList;
+                if(index < list.Count) list.RemoveAt(index);
             }
         }
     }

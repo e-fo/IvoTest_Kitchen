@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7601461362149152929}
   - component: {fileID: 7079066091274210283}
   - component: {fileID: 2270263006975993424}
-  - component: {fileID: -5160914020406007327}
+  - component: {fileID: 4318999193245530974}
   m_Layer: 0
   m_Name: Vegetable
   m_TagString: Untagged
@@ -143,26 +143,41 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: -5160914020406007327}
-        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.ListSetter, Assembly-CSharp
+      - m_Target: {fileID: 4318999193245530974}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.ListSetterBase`2[[IvoKitchen.SOIngredientPlace,
+          Assembly-CSharp
         m_MethodName: SetList
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 2679d89e5e94df74daf3d36b68a7c161, type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientValueList,
+          m_ObjectArgument: {fileID: 11400000, guid: b4a3d30f9c064a244b0267e852186c71, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityAtoms.BaseAtoms.SOIngredientPlaceValueList,
             Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: -5160914020406007327}
-        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.ListSetter, Assembly-CSharp
+      - m_Target: {fileID: 4318999193245530974}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.ListSetterBase`2[[IvoKitchen.SOIngredientPlace,
+          Assembly-CSharp
         m_MethodName: SetElementValue
         m_Mode: 2
         m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 26bd0e1733647f64fb37577e1eb6640d, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredientPlace, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4318999193245530974}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.ListSetterBase`2[[IvoKitchen.SOIngredientPlace,
+          Assembly-CSharp
+        m_MethodName: ApplyOnListByInstanceId
+        m_Mode: 1
+        m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: IvoKitchen.SOIngredient, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -172,7 +187,7 @@ MonoBehaviour:
   _conditions:
   - {fileID: 11400000, guid: 690f7d01c1e030a4e94b8eab6c788bf6, type: 2}
   _operator: 0
-  _replayEventBufferOnRegister: 1
+  _replayEventBufferOnRegister: 0
   _eventReference:
     _usage: 0
     _event: {fileID: 11400000, guid: 03e30f40264b2e8489e1881def7f2e0b, type: 2}
@@ -214,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _localPos: {x: 0, y: 0, z: 0}
---- !u!114 &-5160914020406007327
+--- !u!114 &4318999193245530974
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,6 +238,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3252865726288369447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeed4880faff5e046907d257c958fe24, type: 3}
+  m_Script: {fileID: 11500000, guid: 16addf64df7b89c4f905c0290d6b3602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _instanceIdList: {fileID: 11400000, guid: f7fe42a173dbb4b4c87559b267078882, type: 2}

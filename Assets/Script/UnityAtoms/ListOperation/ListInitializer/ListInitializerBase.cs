@@ -21,10 +21,6 @@ namespace UnityAtoms.BaseAtoms
         [SerializeField] protected bool _initOnStart;
         [SerializeField] protected bool _initOnEnable;
 
-        [Header("Deinitialize State")]
-        [SerializeField] protected bool _removeOnDestroy;
-        [SerializeField] protected bool _removeOnDisable;
-
 
         [SerializeField] protected IntValueList _keyList;
         [SerializeField] protected List<ListValuePair<T,TElem>> _valueList;
@@ -32,29 +28,18 @@ namespace UnityAtoms.BaseAtoms
         void Awake()        { if(_initOnAwake) AddToList(); if(_removeComponentAfterInit) Destroy(this);}
         void Start()        { if(_initOnStart)      AddToList(); if(_removeComponentAfterInit) Destroy(this);}
         void OnEnable()     { if(_initOnEnable)     AddToList(); if(_removeComponentAfterInit) Destroy(this);}
-        void OnDisable()    { if(_removeOnDisable)  RemoveFromList(_keyList.IndexOf(this.gameObject.GetInstanceID())); }
-        void OnDestroy()    { if(_removeOnDestroy)  RemoveFromList(_keyList.IndexOf(this.gameObject.GetInstanceID())); }
 
         protected virtual void AddToList()
         {
-            _keyList.Add(this.gameObject.GetInstanceID());
+            if(false == _keyList.IList.Contains(this.gameObject.GetInstanceID()))
+                _keyList.Add(this.gameObject.GetInstanceID());
+
             int c = _valueList.Count;
 
             for(int i=c-1; i>=0; i--) 
             {
                 _valueList[i].List.IList.Add(_valueList[i].Value);
             }
-        }
-
-        protected virtual void RemoveFromList(int index)
-        {
-            int c = _valueList.Count;
-            for(int i=c-1; i>=0; i--) 
-            {
-                IList list = _valueList[i].List.IList;
-                if(index < list.Count) list.RemoveAt(index);
-            }
-            _keyList.IList.RemoveAt(index);
         }
     }
 }

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1259184181866607652}
   - component: {fileID: 3304333727936612201}
   - component: {fileID: 6800682179718064356}
+  - component: {fileID: 4091000336242986419}
+  - component: {fileID: -3886823805794402875}
   - component: {fileID: 1259184181866607659}
   - component: {fileID: 1259184181866607658}
   - component: {fileID: 1259184181866607657}
@@ -66,12 +68,48 @@ MonoBehaviour:
   _initOnAwake: 1
   _initOnStart: 0
   _initOnEnable: 0
-  _removeOnDestroy: 1
-  _removeOnDisable: 0
   _keyList: {fileID: 11400000, guid: f7fe42a173dbb4b4c87559b267078882, type: 2}
   _valueList:
   - Value: {fileID: 11400000, guid: 5e9156f9e96a56d4d89edf4e654211c0, type: 2}
     List: {fileID: 11400000, guid: b4a3d30f9c064a244b0267e852186c71, type: 2}
+--- !u!114 &4091000336242986419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259184181866607656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814bba3669ffc4c469e0a3707c329d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _removeComponentAfterInit: 0
+  _initOnAwake: 1
+  _initOnStart: 0
+  _initOnEnable: 0
+  _keyList: {fileID: 11400000, guid: f7fe42a173dbb4b4c87559b267078882, type: 2}
+  _valueList:
+  - Value: {fileID: 11400000, guid: 9186ba2f410fee54b80de58af2982f4b, type: 2}
+    List: {fileID: 11400000, guid: b12b45dccf893df41a94c425005eeef1, type: 2}
+--- !u!114 &-3886823805794402875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259184181866607656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33be38f4217f404ea551d22965fdde8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyList: {fileID: 11400000, guid: f7fe42a173dbb4b4c87559b267078882, type: 2}
+  _valueLists:
+  - {fileID: 11400000, guid: b4a3d30f9c064a244b0267e852186c71, type: 2}
+  - {fileID: 11400000, guid: b12b45dccf893df41a94c425005eeef1, type: 2}
+  _removeOnDestroy: 1
+  _removeOnDisable: 0
 --- !u!33 &1259184181866607659
 MeshFilter:
   m_ObjectHideFlags: 0
